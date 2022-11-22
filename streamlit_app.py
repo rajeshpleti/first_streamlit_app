@@ -24,7 +24,7 @@ streamlit.header('Fruityvice and Fruity advice')
 # new section 
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+" kiwi")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 # write your own comment -what does the next line do? 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do?
